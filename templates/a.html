@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>$aveory</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link  href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet" >
+    </head>
+    <body>
+
+	<form method="post">
+    	<input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+	</form>
+    </body>
+
+</html>
